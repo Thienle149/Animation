@@ -72,7 +72,7 @@ extension ViewController: CAAnimationDelegate {
 				self.circleView.layer.add(animationLeft, forKey: nil)
 			} else if animation == AnimationCircle.left.rawValue {
 				let animationTop = positionXCircleView(from: 50, to: self.view.frame.width - 50, value: .top)
-				self.circleView.layer.add(animationTop, forKey: "nil")
+				self.circleView.layer.add(animationTop, forKey: nil)
 			}
 			
 		}
